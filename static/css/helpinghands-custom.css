@@ -10,7 +10,7 @@ h2 {
 
 h3 {
 	color:#FFFFFF;
-	background-color:#008000;
+	background-color:rgba(0,128,0,0.8);
 	margin-top:40px;
 	padding:1px 0px 1px 10px;
 }
@@ -32,10 +32,6 @@ a:hover {
 
 
 /* NAVIGATION CSS */
-.hh-navbg {
-	background-image:url('../img/bg-grass.png')
-}
-
 .hh-topnav {
 	font-size:12px;
 }
@@ -81,8 +77,8 @@ a:hover {
 
 /* DESIGN ELEMENTS CSS */
 
-.hh-margintop10 {
-	margin-top:10px;
+.hh-margintop5 {
+	margin-top:5px;
 }
 
 .hh-margintop20 {
@@ -100,14 +96,15 @@ a:hover {
 }
 
 .hh-textbox {
-	background-color:rgba(255,255,255,0.75);
+	background-color:rgba(255,255,255,0.85);
 	padding:10px;
-	margin:10px 10px 20px 10px;
+	margin:20px 10px 0px 10px;
 	font-size: 20px;
 	line-height:25px
 }
 
 .hh-paperbox {
+	margin-top:-25px;
 	background: #ffefb2;
 	background: -moz-linear-gradient(top,  #ffefb2 0%, #fed200 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffefb2), color-stop(100%,#fed200));
@@ -159,6 +156,7 @@ a:hover {
 	background: -ms-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
 	background: linear-gradient(to bottom,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6000', endColorstr='#ff6000',GradientType=0 );
+	margin-bottom:10px;
 }
 /* END DESIGNELEMENTS CSS */
 
@@ -169,6 +167,11 @@ a:hover {
 #hh-hmpgbg {
 	background-color:#CCCCCC;
 	background-image:url('../img/hh-bg.jpg');
+}
+
+#hh-hmpgbg2 {
+	background-color:#CCCCCC;
+	background-image:url('../img/bg-opt2.jpg');
 }
 
 /**
@@ -187,6 +190,6 @@ a:hover {
 	background-image:url('../img/bg-grass.png');
 	padding:20px 0px 10px 0px;
 	margin-top:25px;
-	font-size:12px;
+	font-size:14px;
 }
 /* END FOOTER CSS */
