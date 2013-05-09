@@ -70,6 +70,11 @@ a:hover {
 	color:#071D90;
 	text-decoration:none;
 }
+
+.hh-headerbg {
+	background-color:#ffffff;
+	background-image:url('../img/bg-hands.png');
+}
 /* END NAVIGATION CSS */
 
 
@@ -79,10 +84,6 @@ a:hover {
 
 .hh-margintop5 {
 	margin-top:5px;
-}
-
-.hh-margintop20 {
-	margin-top:20px;
 }
 
 .hh-headbox {
@@ -104,7 +105,7 @@ a:hover {
 }
 
 .hh-paperbox {
-	margin-top:-25px;
+	margin-top:20px;
 	background: #ffefb2;
 	background: -moz-linear-gradient(top,  #ffefb2 0%, #fed200 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffefb2), color-stop(100%,#fed200));
@@ -180,14 +181,67 @@ a:hover {
 	 background-image:url('../img/hh-hero.jpg');
 }
 **/
+
+.hh-iconrow {
+	margin-top:20px;
+}
+
+.hh-iconrow a:link, a:visited, a:active {
+	color:#071d90;
+}
+
+.hh-iconrow a:hover {
+	text-decoration:none;
+}
+
+.hh-icon-donate {
+	display: block;
+	width: 175px;
+	height: 175px;
+	background: url('../img/hh-icon-donate.png');
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.hh-icon-donate:hover {
+	background: url('../img/hh-icon-donate2.jpg');
+}
+
+.hh-icon-find {
+	display: block;
+	width: 175px;
+	height: 175px;
+	background: url('../img/hh-icon-find.png');
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.hh-icon-find:hover {
+	background: url('../img/hh-icon-find2.png');
+}
+
+.hh-icon-plan {
+	-webkit-transition: margin 0.25s ease-out;
+	-moz-transition: margin 0.25s ease-out;
+	-o-transition: margin 0.25s ease-out;
+}
+
+.hh-icon-plan:hover {
+	cursor:pointer;
+	margin-top:-10px;
+}
+
+
+
+
 /* END HOMPAGE ONLY CSS */
 
 
 
 /* FOOTER CSS */
 .hh-footer {
-	background-color:#A4AfD3;
-	background-image:url('../img/bg-grass.png');
+	background-color:#ffffff;
+	background-image:url('../img/bg-hands2.png');
 	padding:20px 0px 10px 0px;
 	margin-top:25px;
 	font-size:14px;

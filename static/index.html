@@ -32,8 +32,9 @@
 <body>
 
 <!-- Header -->
-<div class="container hh-margintop5">
-	<div class="row">
+<div class="hh-headerbg">
+<div class="container">
+	<div class="row hh-margintop5">
 		<div class="span3">
 			<img src="img/HelpingHands-logo-150x150.png" style="margin-bottom:5px">
 		</div>
@@ -74,6 +75,7 @@
 		</div>
 	</div>
 </div>
+</div>
 <!-- End Header -->
 
 <!-- Banner Area-->
@@ -86,7 +88,7 @@
 					<div class="hh-textbox">
 						<h1>Help Fight Global Hunger!</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra libero eu enim fermentum vitae fringilla quam interdum. Vivamus sodales viverra libero id lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu metus sem, ut aliquet lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-						<div class="btn btn-large btn-warning hh-orangebtn-big" >Learn How You Can Help</div>
+						<div class="text-center"><div class="btn btn-large btn-warning hh-orangebtn-big" >Learn How You Can Help</div></div>
 					</div>
 				</div>
 	    	</div>
@@ -118,10 +120,19 @@
 
 <!-- Content -->
 <div class="container">	
-	<div class="row hh-margintop20">
-		<a href="#"><div class="span4"><h2 align="center"><img src="img/hh-icon-plan.png"><br>Plan Your Event</h2></div></a>
-		<div class="span4"><h2 align="center"></i><img src="img/hh-icon-find.png"><br>Find Your Event</h2></div>
-		<div class="span4"><h2 align="center"><img src="img/hh-icon-donate.png"><br>Donate Meals</h2></div>
+	<div class="row hh-iconrow">
+		<div class="span4 text-center">
+			<a href="#"><img src="img/hh-icon-plan.png" class="hh-icon-plan" border="0">
+			<h2>Plan Your Event</h2></a>
+		</div>
+		<div class="span4 text-center">
+			<a href="#" class="hh-icon-find"></a>
+			<h2><a href="#">Find Your Event</a></h2>
+		</div>
+		<div class="span4 text-center">
+			<a href="#" class="hh-icon-donate"></a>
+			<h2><a href="#">Donate Meals</a></h2>
+		</div>
 	</div>
 	<div class="row">
 		<div class="span4">
@@ -133,9 +144,9 @@
 				<option value="AK">Alaska</option>
 				<option value="AZ">Arizona</option>
 				</select>
-			    <button type="submit" value="Submit" class="btn btn-warning hh-orangebtn offset1">Find Events</button>
-				<br><br>
-				<p align="center"><strong>OR</strong></p>
+			    <div class="text-center"><button type="submit" value="Submit" class="btn btn-warning hh-orangebtn">Find Events</button></div>
+				<br>
+				<p class="text-center"><strong>OR</strong></p>
 				<p>Seach for events by entering a keyword in the box below:</p>
 				<div class="input-append">
 			    <input class="span3" id="appendedInputButton" type="text" placeholder="Enter Search Term">
@@ -157,13 +168,12 @@
 <div class="container">
 	<div class="row">
 		<div class="span12">
-			<center>
-			<table width="100%" cellpadding="10" cellspacing="0" border="0">
+			<table width="100%" cellpadding="10" cellspacing="0" border="0" class="hh-centered">
 				<tr>
 					<td>
 						<img src="img/StopHungerNow-logo.png">
 					</td>
-					<td align="center">
+					<td class="text-center">
 						<h4>Want to Join the Movement Against Hunger?</h4>
 						<address>
 							<strong>E-mail Us:</strong> <a href="mailto:communitygiving@global.crs.org" target="_blank" title="E-mail Helping Hands">communitygiving@global.crs.org</a><br>
@@ -177,8 +187,7 @@
 				</tr>
 			</table>
 			<br><br>
-			<p align="center">&copy; 2013 Catholic Relief Services, 228 W. Lexington St., Baltimore, MD 21201</p>
-			</center>
+			<p class="text-center">&copy; 2013 Catholic Relief Services, 228 W. Lexington St., Baltimore, MD 21201</p>
 		</div>
 	</div>
 </div>

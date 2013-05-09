@@ -16,60 +16,96 @@
 			<key>sourceDirectory</key>
 			<string></string>
 		</dict>
-		<dict>
-			<key>filename</key>
-			<string>static/jquery.backstretch.min.js</string>
-			<key>lastUsed</key>
-			<date>2013-05-08T16:50:32Z</date>
-			<key>selected</key>
-			<true/>
-		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>static/css/bootstrap.min.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>149</integer>
+				<key>line</key>
+				<integer>359</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>226</integer>
+			<key>firstVisibleLine</key>
+			<integer>343</integer>
+		</dict>
 		<key>static/css/helpinghands-custom.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>8</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>static/index-opt2.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>116</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>37</integer>
 		</dict>
 		<key>static/index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>22</integer>
+				<integer>117</integer>
 				<key>line</key>
-				<integer>173</integer>
+				<integer>121</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>148</integer>
+			<integer>97</integer>
 		</dict>
-		<key>static/jquery.backstretch.min.js</key>
+		<key>static/index2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2265</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>2</integer>
+				<integer>45</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>20</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>45</integer>
+			</dict>
 		</dict>
 		<key>static/js/bootstrap.min.js</key>
 		<dict>
@@ -90,7 +126,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2265</integer>
+				<integer>1189</integer>
 				<key>line</key>
 				<integer>2</integer>
 			</dict>
@@ -102,15 +138,17 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
+		<string>static/index2.html</string>
+		<string>static/index-opt2.html</string>
 		<string>static/index.html</string>
-		<string>static/jquery.backstretch.min.js</string>
 		<string>static/js/jquery.backstretch.min.js</string>
 		<string>static/js/bootstrap.min.js</string>
 		<string>static/css/helpinghands-custom.css</string>
+		<string>static/css/bootstrap.min.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{758, 15}, {1222, 1031}}</string>
+	<string>{{854, -25}, {792, 996}}</string>
 </dict>
 </plist>
