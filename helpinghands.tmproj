@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>static/index.html</string>
+	<string>static/css/helpinghands-custom.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -40,9 +40,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>36</integer>
 				<key>line</key>
-				<integer>8</integer>
+				<integer>76</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>47</integer>
+		</dict>
+		<key>static/events.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -68,14 +82,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>117</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>121</integer>
+				<integer>35</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>97</integer>
+			<integer>15</integer>
 		</dict>
 		<key>static/index2.html</key>
 		<dict>
@@ -91,7 +105,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>20</integer>
+			<integer>125</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -139,6 +153,7 @@
 	<key>openDocuments</key>
 	<array>
 		<string>static/index2.html</string>
+		<string>static/events.html</string>
 		<string>static/index-opt2.html</string>
 		<string>static/index.html</string>
 		<string>static/js/jquery.backstretch.min.js</string>
@@ -149,6 +164,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{854, -25}, {792, 996}}</string>
+	<string>{{441, 62}, {792, 996}}</string>
 </dict>
 </plist>

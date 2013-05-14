@@ -11,8 +11,8 @@ h2 {
 h3 {
 	color:#FFFFFF;
 	background-color:rgba(0,128,0,0.8);
-	margin-top:40px;
 	padding:1px 0px 1px 10px;
+	border-radius:5px;
 }
 
 h4 {
@@ -73,7 +73,6 @@ a:hover {
 
 .hh-headerbg {
 	background-color:#ffffff;
-	background-image:url('../img/bg-hands.png');
 }
 /* END NAVIGATION CSS */
 
@@ -85,6 +84,56 @@ a:hover {
 .hh-margintop5 {
 	margin-top:5px;
 }
+
+.hh-margintop20 {
+	margin-top:20px;
+}
+
+.hh-margintop40 {
+	margin-top:40px;
+}
+
+.hh-orangebtn-big {
+	font-family:'myriad-pro-condensed';
+	font-size:26px;
+	background: #ff6000;
+	background: -moz-linear-gradient(top,  #ff6000 0%, #ff843d 50%, #ff6000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6000), color-stop(50%,#ff843d), color-stop(100%,#ff6000));
+	background: -webkit-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
+	background: -o-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
+	background: -ms-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
+	background: linear-gradient(to bottom,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6000', endColorstr='#ff6000',GradientType=0 );
+	margin-bottom:10px;
+}
+
+.hh-intro {
+	font-family:'myriad-pro-condensed';
+	font-size:24px;
+	line-height:26px;
+}
+/* END DESIGNELEMENTS CSS */
+
+
+
+
+/* HOMEPAGE ONLY CSS */
+#hh-hmpgbg {
+	background-color:#CCCCCC;
+	background-image:url('../img/hh-bg.jpg');
+}
+
+#hh-hmpgbg2 {
+	background-color:#CCCCCC;
+	background-image:url('../img/bg-opt2.jpg');
+}
+
+/**
+#hh-hero {
+	background-color:#CCCCCC;
+	 background-image:url('../img/hh-hero.jpg');
+}
+**/
 
 .hh-headbox {
 	background-color:rgba(0,128,0,0.8);
@@ -108,7 +157,7 @@ a:hover {
 	margin-top:20px;
 	background: #ffefb2;
 	background: -moz-linear-gradient(top,  #ffefb2 0%, #fed200 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffefb2), color-stop(100%,#fed200));
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffefb2), 			color-stop(100%,#fed200));
 	background: -webkit-linear-gradient(top,  #ffefb2 0%,#fed200 100%);
 	background: -o-linear-gradient(top,  #ffefb2 0%,#fed200 100%);
 	background: -ms-linear-gradient(top,  #ffefb2 0%,#fed200 100%);
@@ -145,42 +194,6 @@ a:hover {
 	background: linear-gradient(to bottom,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6000', endColorstr='#ff6000',GradientType=0 );
 }
-
-.hh-orangebtn-big {
-	font-family:'myriad-pro-condensed';
-	font-size:26px;
-	background: #ff6000;
-	background: -moz-linear-gradient(top,  #ff6000 0%, #ff843d 50%, #ff6000 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6000), color-stop(50%,#ff843d), color-stop(100%,#ff6000));
-	background: -webkit-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
-	background: -o-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
-	background: -ms-linear-gradient(top,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
-	background: linear-gradient(to bottom,  #ff6000 0%,#ff843d 50%,#ff6000 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6000', endColorstr='#ff6000',GradientType=0 );
-	margin-bottom:10px;
-}
-/* END DESIGNELEMENTS CSS */
-
-
-
-
-/* HOMEPAGE ONLY CSS */
-#hh-hmpgbg {
-	background-color:#CCCCCC;
-	background-image:url('../img/hh-bg.jpg');
-}
-
-#hh-hmpgbg2 {
-	background-color:#CCCCCC;
-	background-image:url('../img/bg-opt2.jpg');
-}
-
-/**
-#hh-hero {
-	background-color:#CCCCCC;
-	 background-image:url('../img/hh-hero.jpg');
-}
-**/
 
 .hh-iconrow {
 	margin-top:20px;
@@ -230,11 +243,46 @@ a:hover {
 	cursor:pointer;
 	margin-top:-10px;
 }
-
-
-
-
 /* END HOMPAGE ONLY CSS */
+
+
+
+
+/* MAIN PAGES ONLY CSS */
+.hh-h3h3 {
+	margin-top:0px;
+}
+
+.first-button {
+	margin-top: 5px;
+	margin-left:50px;
+	width:200px;
+}
+
+.last-button {
+	margin-top: 5px;
+	margin-bottom:30px;
+	margin-left:50px;
+	width:200px;
+}
+/* END MAIN PAGES ONLY CSS */
+
+
+
+
+/* INT PAGES ONLY CSS */
+.hh-header9 {
+	background-color:rgba(0,128,0,0.8);
+	color:#fff;
+	padding:5px;
+}
+
+#hh-events {
+	background:url('../img/events-header.jpg');
+	height:250px;
+}
+/* END INT PAGES ONLY CSS */
+
 
 
 
@@ -243,7 +291,7 @@ a:hover {
 	background-color:#ffffff;
 	background-image:url('../img/bg-hands2.png');
 	padding:20px 0px 10px 0px;
-	margin-top:25px;
+	margin-top:50px;
 	font-size:14px;
 }
 /* END FOOTER CSS */
