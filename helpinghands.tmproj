@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>static/css/helpinghands-custom.css</string>
+	<string>static/events-overview.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -56,42 +56,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>26</integer>
+				<integer>309</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>260</integer>
 		</dict>
 		<key>static/events-overview.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>63</integer>
 				<key>line</key>
-				<integer>73</integer>
+				<integer>93</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>93</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>38</integer>
+			<integer>80</integer>
 		</dict>
 		<key>static/events.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>117</integer>
+				<integer>56</integer>
 				<key>line</key>
-				<integer>158</integer>
+				<integer>119</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>23</integer>
+			<integer>92</integer>
 		</dict>
 		<key>static/index-b.html</key>
 		<dict>
@@ -142,14 +142,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
+				<integer>63</integer>
 				<key>line</key>
-				<integer>111</integer>
+				<integer>169</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>71</integer>
+			<integer>157</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>169</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>63</integer>
+				<key>line</key>
+				<integer>169</integer>
+			</dict>
 		</dict>
 		<key>static/index2.html</key>
 		<dict>
@@ -224,6 +240,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{842, 73}, {792, 774}}</string>
+	<string>{{402, 82}, {792, 774}}</string>
 </dict>
 </plist>
