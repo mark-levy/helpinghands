@@ -46,10 +46,9 @@
 		    <span class="caret"></span>
 		    </a>
 		    <ul class="dropdown-menu">
-				<li><a href="#">Apply to host an event</a></li>
-				<li><a href="#">Register as a volunteer</a></li>
-				<li><a href="#">Get post-event information</a></li>
-				<li><a href="#">Make a donation</a></li>
+				<li><a href="#">Register for your event</a></li>
+				<li><a href="#">Track your meals</a></li>
+				<li><a href="#">Buy more meals</a></li>
 		    </ul>
 		    </div>
 			<!-- End Top Nav -->
@@ -60,15 +59,16 @@
 						<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-							<a href="/about-us/index.html" target="_self" title="What is Helping Hands">What is Helping Hands?</a><br><br>
-							<a href="/global-hunger/index.html" target="_self" title="How Do We Help Global Hunger?">How Do We Help Global Hunger?</a><br><br>
-							<a href="/burkina-faso/index.html" target="_self" title="Where Does the Food Go?">Where Does the Food Go?</a><br><br>
-							<a href="/post-event-information/index.html" target="_self">See Some of Our Past Events</a><br><br>
-							<a href="/media-library/index.html" target="_self">View Our Video Library</a><br><br>
-							<a href="/post-event-information/helping-hands-in-the-news/index.html" target="_self">Read About Us in the News</a>
+							<li><a href="/about-us/index.html" target="_self" title="What is Helping Hands">What is Helping Hands?</a></li>
+							<li><a href="/global-hunger/index.html" target="_self" title="How Do We Help Global Hunger?">How Do We Fight Global Hunger?</a></li>
+							<li><a href="/burkina-faso/index.html" target="_self" title="Where Does the Food Go?">Where Do Your Meals Go?</a></li>
+							<li class="nav-header">RESOURCES</li>
+							<li><a href="/post-event-information/index.html" target="_self">Past Events</a></li>
+							<li><a href="/media-library/index.html" target="_self">Video Library</a></li>
+							<li><a href="/post-event-information/helping-hands-in-the-news/index.html" target="_self">News and Media</a></li>
 						</ul>
 					</li>
-			    	<li><a href="events.html">Food<br><br>Packing Events</a></li>
+			    	<li><a href="events.html">Meal<br><br>Packaging Events</a></li>
 			    	<li><a href="#">Get<br><br>Involved</a></li>
 					<li><a href="#">CRS & Stop<br><br>Hunger Now</a></li>
 			    </ul><!-- End Main Nav -->
@@ -89,7 +89,7 @@
 					<div class="hh-textbox img-rounded">
 						<h1>Help Fight Global Hunger!</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra libero eu enim fermentum vitae fringilla quam interdum. Vivamus sodales viverra libero id lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu metus sem, ut aliquet lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-						<div class="text-center"><div class="btn btn-large btn-warning hh-orangebtn-big" >Learn How You Can Help</div></div>
+						<div class="text-center"><div class="btn btn-large btn-warning hh-orangebtn-big" >Learn How You Can Help</div></div>						
 					</div>
 				</div>
 	    	</div>
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 			<!-- End Counter Box -->	
-	
+				<div class="photo-credit">Photo credit goes here</div>
 	
 		</div>
 	</div>
@@ -123,8 +123,8 @@
 <div class="container">	
 	<div class="row hh-iconrow">
 		<div class="span4 text-center">
-			<a href="#"><img src="img/hh-icon-plan.png" class="hh-icon-plan" border="0">
-			<h2>Plan Your Event</h2></a>
+			<a href="#" class="hh-icon-plan"></a>
+			<h2><a href="#">Plan Your Event</a></h2>
 		</div>
 		<div class="span4 text-center">
 			<a href="#" class="hh-icon-find"></a>
@@ -137,28 +137,42 @@
 	</div>
 	<div class="row hh-margintop40">
 		<div class="span4">
-			<h3 img-polaroid>Search For Events Near You</h3>
+			<h3 img-polaroid>Search For Your Event</h3>
 			<form>
-				<p>To find a Helping Hands event near you, choose a location from the dropdown menu below:</p>
+				<p>To find your Helping Hands event, choose your state of residence from the dropdown menu below:</p>
 				<select class="span4">
-				<option value="AL">Alabama</option>
-				<option value="AK">Alaska</option>
-				<option value="AZ">Arizona</option>
+					<option selected>-- Choose a State --</option>
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
 				</select>
 			    <div class="text-center"><button type="submit" value="Submit" class="btn btn-warning hh-orangebtn">Find Events</button></div>
 				<br>
 				<p class="text-center"><strong>OR</strong></p>
-				<p>Seach for events by entering a keyword in the box below:</p>
+				<p>Seach for your event by entering a keyword (such as location) in the box below:</p>
 				<div class="input-append">
-			    <input class="span3" id="appendedInputButton" type="text" placeholder="Enter Search Term">
+			    <input class="span3" id="appendedInputButton" type="text" placeholder="Enter Keyword">
 			    <button class="btn" type="button">Search</button>
 			    </div>	
 			</form>
 		</div>
 		<div class="span8">
-			<h3>Track Meals En Route From the U.S. to Burkina Faso</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra libero eu enim fermentum vitae fringilla quam interdum.</p>
-			<p><img src="img/hh-trackmap.png" class="img-rounded"></p>
+			<h3>Recent Helping Hands Events</h3>
+			<div class="row">
+				<div class="span4">
+					<p><img src="img/photo320x200.jpg" class="img-rounded"><br>
+					<div class="photo-credit">Photo credit goes here</div></p>
+					<a href="#"><h4>Recent Event #1</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra libero eu enim fermentum vitae fringilla quam interdum.</p>
+				</div>
+				<div class="span4">
+					<p><img src="img/photo320x200b.jpg" class="img-rounded"><br>
+					<div class="photo-credit">Photo credit goes here</div></p>
+					<a href="#"><h4>Recent Event #2</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis viverra libero eu enim fermentum vitae fringilla quam interdum.</p>
+					
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -177,10 +191,11 @@
 					<td class="text-center">
 						<h4>Want to Join the Movement Against Hunger?</h4>
 						<address>
-							<strong>E-mail Us:</strong> <a href="mailto:communitygiving@global.crs.org" target="_blank" title="E-mail Helping Hands">communitygiving@global.crs.org</a><br>
 							<strong>Call Us:</strong> 1-877-435-7277<br>
-							<strong>Write to Us:</strong> 228 W. Lexington St., Baltimore, MD 21201
+							<strong>Write to Us:</strong> 228 W. Lexington St., Baltimore, MD 21201<br>
+							<strong><a href="mailto:communitygiving@global.crs.org" target="_blank" title="E-mail Helping Hands">Send us an e-mail.</a></strong>
 						</address>
+						
 					</td>
 					<td>
 						<img src="img/CRS-logo.png" align="right">

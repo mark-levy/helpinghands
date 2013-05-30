@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>static/events.html</string>
+	<string>static/css/helpinghands-custom.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,23 +26,39 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>149</integer>
+				<integer>41</integer>
 				<key>line</key>
-				<integer>359</integer>
+				<integer>527</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>1296</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>343</integer>
+			<integer>502</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>28</integer>
+				<key>line</key>
+				<integer>527</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>527</integer>
+			</dict>
 		</dict>
 		<key>static/css/helpinghands-custom.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -54,28 +70,58 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>9</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>73</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>93</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>38</integer>
 		</dict>
 		<key>static/events.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>117</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>158</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+			<integer>23</integer>
+		</dict>
+		<key>static/index-b.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>91</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
 			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>73</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>56</integer>
+				<key>line</key>
+				<integer>91</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>91</integer>
+			</dict>
 		</dict>
 		<key>static/index-opt2.html</key>
 		<dict>
@@ -96,43 +142,43 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>138</integer>
+				<integer>111</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>121</integer>
+			<integer>71</integer>
 		</dict>
 		<key>static/index2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>134</integer>
 				<key>line</key>
-				<integer>45</integer>
+				<integer>163</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>125</integer>
+			<integer>138</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>7</integer>
 				<key>line</key>
-				<integer>42</integer>
+				<integer>163</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>134</integer>
 				<key>line</key>
-				<integer>45</integer>
+				<integer>163</integer>
 			</dict>
 		</dict>
 		<key>static/js/bootstrap.min.js</key>
@@ -169,14 +215,15 @@
 		<string>static/events.html</string>
 		<string>static/index2.html</string>
 		<string>static/css/helpinghands-custom.css</string>
+		<string>static/index.html</string>
 		<string>static/events-overview.html</string>
 		<string>static/css/bootstrap.min.css</string>
 		<string>static/index-opt2.html</string>
-		<string>static/index.html</string>
+		<string>static/index-b.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1097, 45}, {792, 996}}</string>
+	<string>{{842, 73}, {792, 774}}</string>
 </dict>
 </plist>

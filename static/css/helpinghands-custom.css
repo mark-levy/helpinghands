@@ -16,7 +16,7 @@ h3 {
 }
 
 h4 {
-	color: #cc3333;
+	color: #008000;
 }
 
 a:link, a:active, a:hover {
@@ -25,6 +25,14 @@ a:link, a:active, a:hover {
 
 a:hover {
 	color:#071d90;
+}
+
+.photo-credit {
+	font-size:10px;
+	margin-top:-30px;
+	padding-right:10px;
+	text-align:right;
+	color:#000000;
 }
 /* END UNIVERSAL CSS */
 
@@ -59,16 +67,16 @@ a:hover {
 	font-size:16px;
 	font-weight:normal;
 	text-align:left;
-	padding:10px;
 }
 
 .hh-mainnav li ul a:link, a:active, a:visited {
-	color:#FF8C00;
+	color:#071d90;
 }
 
 .hh-mainnav li ul a:hover{
-	color:#071D90;
+	color:#ffffff;
 	text-decoration:none;
+	background:#FF8C00;
 }
 
 .hh-headerbg {
@@ -257,18 +265,20 @@ a:hover {
 }
 
 .hh-icon-find:hover {
-	background: url('../img/hh-icon-find2.png');
+	background: url('../img/hh-icon-find2.jpg');
 }
 
 .hh-icon-plan {
-	-webkit-transition: margin 0.25s ease-out;
-	-moz-transition: margin 0.25s ease-out;
-	-o-transition: margin 0.25s ease-out;
+	display: block;
+	width: 175px;
+	height: 175px;
+	background: url('../img/hh-icon-plan.png');
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .hh-icon-plan:hover {
-	cursor:pointer;
-	margin-top:-10px;
+	background: url('../img/hh-icon-plan2.jpg');
 }
 /* END HOMPAGE ONLY CSS */
 
@@ -291,6 +301,14 @@ a:hover {
 	margin-bottom:30px;
 	margin-left:50px;
 	width:200px;
+}
+
+.hh-landingpage h3 {
+	border-radius:0px 0px 5px 5px;
+}
+
+.img-topround {
+	border-radius: 5px 5px 0px 0px;
 }
 /* END MAIN PAGES ONLY CSS */
 
